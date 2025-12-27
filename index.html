@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gaurav Yadav | Portfolio</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="cursor-dot" data-cursor-dot></div>
+    <div class="cursor-outline" data-cursor-outline></div>
+
+    <div id="preloader">
+        <div class="loader-circle"></div>
+    </div>
+
+    <div class="background-gradient">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+        <div class="grid-overlay"></div>
+    </div>
+
+    <header>
+        <nav class="glass-nav">
+            <a href="#hero" class="logo hover-target">GY<span class="dot">.</span></a>
+            <ul class="nav-links">
+                <li><a href="#about" class="hover-target">About</a></li>
+                <li><a href="#projects" class="hover-target">Work</a></li>
+                <li><a href="#contact" class="hover-target">Contact</a></li>
+            </ul>
+            <div class="burger hover-target">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <section id="hero">
+            <div class="hero-content">
+                <div class="badge fade-in-down">Available for hire</div>
+                <h1 class="hero-name glitch fade-in-up" data-text="GAURAV YADAV">GAURAV<br>YADAV</h1>
+                
+                <h2 class="hero-tagline fade-in-up delay-1">I am a <span class="typing-text"></span><span class="cursor-blink">|</span></h2>
+                <p class="hero-desc fade-in-up delay-2">Turning complex data into insights and creative ideas into digital reality.</p>
+                
+                <div class="hero-btns fade-in-up delay-3">
+                    <a href="#projects" class="btn btn-primary magnetic hover-target">View Projects <i class="fas fa-arrow-right"></i></a>
+                    <a href="#contact" class="btn btn-secondary magnetic hover-target">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="about" class="section reveal">
+             <div class="glass-container">
+                 <h2 class="section-title">About Me</h2>
+                 <div class="about-grid">
+                    <div class="about-text">
+                        <p>Hello! I'm Gaurav Yadav, blending the strategic mindset of a Business Analyst with the technical grit of a Computer Science background. I don't just analyze numbers; I use SQL, Python, and Power BI to build data stories that drive real business decisions.</p>
+                        <p>My toolkit includes:</p>
+                        <ul class="skills-tags">
+                            <li class="hover-target">Wordpress Dev</li>
+                            <li class="hover-target">Data Analytics</li>
+                            <li class="hover-target">Python/Excel</li>
+                            <li class="hover-target">HTML/CSS</li>
+                            <li class="hover-target">SQL/Power BI</li>
+                        </ul>
+                    </div>
+                    <div class="about-image-wrapper">
+                        <img src="images/myphoto.jpeg" alt="Gaurav" class="profile-pic">
+                    </div>
+                 </div>
+             </div>
+        </section>
+
+        <section id="projects" class="section">
+            <h2 class="section-title reveal">Project Works</h2>
+            <div class="projects-grid">
+                
+                <div class="project-card tilt-card reveal delay-1 hover-target">
+                    <div class="card-content">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <h3 class="project-title">Portfolio</h3>
+                        <p class="project-desc">A modern, glassmorphism-inspired portfolio built to showcase creative development skills using pure CSS and JS.</p>
+                        <div class="tech-stack">
+                            <span>HTML5</span><span>CSS3</span><span>JS</span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/gauravy273209-prog" target="_blank" class="hover-target"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" class="hover-target"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="project-card tilt-card reveal delay-2 hover-target">
+                    <div class="card-content">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <h3 class="project-title">Coming Soon</h3>
+                        <p class="project-desc">Project in progress</p>
+                        <div class="tech-stack">
+                            <span></span><span></span><span></span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/gauravy273209-prog" target="_blank" class="hover-target"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" class="hover-target"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card tilt-card reveal delay-3 hover-target">
+                    <div class="card-content">
+                        <div class="folder-icon"><i class="far fa-folder-open"></i></div>
+                        <h3 class="project-title">Coming Soon</h3>
+                        <p class="project-desc">Project in progress</p>
+                        <div class="tech-stack">
+                            <span></span><span></span>
+                        </div>
+                        <div class="card-links">
+                            <a href="https://github.com/gauravy273209-prog" target="_blank" class="hover-target"><i class="fab fa-github"></i></a>
+                            <a href="#" target="_blank" class="hover-target"><i class="fas fa-external-link-alt"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </section>
+
+        <section id="contact" class="section reveal">
+            <div class="glass-container contact-box">
+                <h2>Let's Connect</h2>
+                <p>Currently looking for new opportunities in Data Analytics and Web Development.</p>
+                <a href="mailto:Gauravydv00111@gmail.com" class="btn btn-primary magnetic hover-target">Say Hello</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="social-links">
+            <a href="https://github.com/gauravy273209-prog" target="_blank" class="hover-target"><i class="fab fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/gaurav-yadav-692438394/" target="_blank" class="hover-target"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://www.instagram.com/its_gaurav_0011?igsh=MW9jdDJ3NDlpMGt6NA%3D%3D&utm_source=qr" target="_blank" class="hover-target"><i class="fab fa-instagram"></i></a>
+        </div>
+        <p>Built with ❤️ by GAURAV</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
